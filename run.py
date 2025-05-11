@@ -10,15 +10,14 @@ import string
 
 SUPABASE_URL = "https://cqakrownxujefhtmsefa.supabase.co"
 SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNxYWtyb3dueHVqZWZodG1zZWZhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzIyNjMyMzMsImV4cCI6MjA0NzgzOTIzM30.E9jJxNBxFsVZsndwhsMZ_2hXaeHdDTLS7jZ50l-S72U"
-SUPABASE_TABLE_NAME = "sp"
+SUPABASE_TABLE_NAME = "aeteronlyy"
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # Rentang data yang diproses (misal dari baris 1 sampai 50)
-start_row =0  # Baris pertama (0-based index)
-end_row = 100  # Baris terakhir yang ingin diproses
+start_row = 5200
+end_row = 5300
 
-# Deklarasi akun tunggal
-email = "brendon_ferrer@sdn2duwet.ac.id"
+email = "mikaela_holcomb@sdn2duwet.ac.id"
 password = "@@Masuk123#"
 
 
@@ -70,7 +69,7 @@ time.sleep(3)
 driver.find_element(By.CSS_SELECTOR, "#Google").click()
 time.sleep(3)
 
-clickgoogle2 = f'div[data-identifier="{email}"]'
+clickgoogle2 = f'div[data-identifier="mikaela_holcomb@sdn2duwet.ac.id"]'
 
 driver.find_element(By.CSS_SELECTOR, clickgoogle2).click()
 time.sleep(3)
